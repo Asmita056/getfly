@@ -5,7 +5,7 @@ export default function NavBar() {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-blue-950 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-xl font-bold">MyLogo</div>
         <div className="block lg:hidden">
@@ -57,9 +57,6 @@ export default function NavBar() {
           <Link to="/faq" className="text-gray-300 hover:text-white">
             FAQ
           </Link>
-          <Link to="/contact" className="text-gray-300 hover:text-white">
-            Contact
-          </Link>
         </div>
       </div>
 
@@ -82,12 +79,6 @@ export default function NavBar() {
             className="block text-gray-300 hover:text-white px-2 py-1"
           >
             FAQ
-          </Link>
-          <Link
-            to="/contact"
-            className="block text-gray-300 hover:text-white px-2 py-1"
-          >
-            Contact
           </Link>
         </div>
       )}

@@ -17,7 +17,7 @@ export default function RaiseQs() {
   return (
     <div className="flex flex-row mt-10 px-20 py-10 bg-gray-300">
       <div className="w-1/2 flex flex-col justify-center items-center text-center p-5 mr-5 rounded-lg shadow-lg">
-        <FaQuestionCircle className="text-6xl text-blue-500 mb-4" />
+        <FaQuestionCircle className="text-6xl text-blue-800 mb-4" />
         <h5 className="text-3xl font-bold mb-2">Still have a question?</h5>
         <p className="text-lg mb-4">Ask Us</p>
         <p className="text-sm text-gray-500">
@@ -27,7 +27,7 @@ export default function RaiseQs() {
       <div className="w-1/2 flex items-center justify-center ">
         <form onSubmit={handleSubmit} className="w-full">
           <div className="flex mb-4">
-            <label className="block w-1/3 my-auto text-gray-700">
+            <label className="block w-1/3 my-auto text-gray-800">
               Your name
             </label>
             <input
@@ -40,7 +40,7 @@ export default function RaiseQs() {
             />
           </div>
           <div className="flex mb-4">
-            <label className="block w-1/3 my-auto text-gray-700">
+            <label className="block w-1/3 my-auto text-gray-800">
               Email Address
             </label>
             <input
@@ -53,7 +53,7 @@ export default function RaiseQs() {
             />
           </div>
           <div className="flex mb-4">
-            <label className="block w-1/3 my-auto text-gray-700">
+            <label className="block w-1/3 my-auto text-gray-800">
               Question
             </label>
             <textarea
@@ -68,7 +68,7 @@ export default function RaiseQs() {
           <div className="flex justify-center">
             <button
               type="submit"
-              className="bg-blue-500 hover:bg-blue-600 text-white rounded-lg px-4 py-2 mt-3"
+              className="bg-blue-800 hover:bg-blue-600 text-white rounded-lg px-4 py-2 mt-3"
             >
               Submit
             </button>

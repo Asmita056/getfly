@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function NotificationItems({ id, title, information, date }) {
   return (
@@ -7,9 +8,9 @@ export default function NotificationItems({ id, title, information, date }) {
       <p className="text-sm text-gray-600">{date}</p>
       <p>
         {information.slice(0, 100)}...{" "}
-        <a href="#" className="text-blue-600">
+        <Link to={`/notification/${id}`} className="text-blue-600">
           Read More
-        </a>
+        </Link>
       </p>
       <hr className="mt-2" />
     </li>

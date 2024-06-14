@@ -78,9 +78,17 @@ export default function Notifications() {
             pariatur natus officia cum illum labore at alias corrupti illo
             architecto dolor. Nesciunt, quod reiciendis.
           </p>
-          <button className="bg-green-600 text-white mt-4 py-2 px-4 rounded-lg">
-            READ MORE
-          </button>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            dolore corrupti ad quasi, officiis voluptate impedit ea ipsa sit
+            deserunt! Fugit, repellendus fuga possimus ad quaerat cupiditate
+            laudantium quibusdam, tempore, veritatis minima quis eum suscipit
+            optio blanditiis quae. Laborum numquam eaque debitis velit error
+            tenetur incidunt rem quasi consequuntur odio officia libero vitae,
+            animi dicta nesciunt delectus molestiae magni autem. Ab rerum porro
+            provident velit ipsa distinctio quas quidem molestias.
+          </p>
         </div>
       </div>
 
@@ -116,7 +124,6 @@ export default function Notifications() {
           </button>
         </div>
       </div>
-      <h1>usg</h1>
     </div>
   );
 }

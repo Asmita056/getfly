@@ -5,7 +5,7 @@ export default function Faq() {
   const [faqItems, setFaqItems] = useState([
     {
       id: 1,
-      question: "Q1. What question do you have? ask here",
+      question: "Q1. What question do you have? ask here...",
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumea mollitia error ex nihil dolores iusto, sunt labore illumoptio repellendus quibusdam explicabo est sed, enim expedita adipisci incidunt suscipit voluptatibus nobis? Culpa libero, ipsam architecto voluptate cum incidunt, doloremque, corrupti hic voluptates inventore neque consequatur voluptatibus corporis dolor molestiae?",
       isOpen: false,

@@ -74,7 +74,7 @@ const NotificationDetails = () => {
     <>
       <Navbar />
       <h1 className="text-4xl text-center mt-5 font-bold">Notifications</h1>
-      <div className="flex flex-col items-center justify-centermt-10 px-20 py-10 bg-gray-100 flex-grow">
+      <div className="flex flex-col items-center justify-center h-screen mt-10 px-20 py-10 bg-gray-100 flex-grow">
         <div className="w-full md:w-2/3 p-5 bg-white shadow-md rounded-lg">
           <h2 className="text-2xl font-bold">{notification.title}</h2>
           <p className="text-sm text-gray-600">{notification.date}</p>

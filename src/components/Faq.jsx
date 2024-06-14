@@ -1,6 +1,8 @@
 import FaqItem from "./FaqItem";
 import { useState } from "react";
 import RaiseQs from "./RaiseQs";
+import NavBar from "./Navbar";
+import Footer from "./Footer";
 export default function Faq() {
   const [faqItems, setFaqItems] = useState([
     {
@@ -87,6 +89,7 @@ export default function Faq() {
 
   return (
     <div>
+      <NavBar />
       <h1 className="text-4xl m-4 font-bold flex justify-center">
         Frequently Asked Questions
       </h1>
@@ -104,6 +107,7 @@ export default function Faq() {
         ))}
       </div>
       <RaiseQs />
+      <Footer />
     </div>
   );
 }

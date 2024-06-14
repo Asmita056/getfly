@@ -93,7 +93,6 @@ export default function Faq() {
       <h1 className="text-4xl m-4 font-bold flex justify-center">
         Frequently Asked Questions
       </h1>
-      {/* <br /> */}
       <div>
         {Object.keys(faqItems).map((id) => (
           <FaqItem

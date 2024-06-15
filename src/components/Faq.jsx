@@ -7,70 +7,70 @@ export default function Faq() {
   const [faqItems, setFaqItems] = useState([
     {
       id: 1,
-      question: "Q1. What question do you have? ask here...",
+      question: "Q1. A frequently asked question would be displayed here",
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumea mollitia error ex nihil dolores iusto, sunt labore illumoptio repellendus quibusdam explicabo est sed, enim expedita adipisci incidunt suscipit voluptatibus nobis? Culpa libero, ipsam architecto voluptate cum incidunt, doloremque, corrupti hic voluptates inventore neque consequatur voluptatibus corporis dolor molestiae?",
       isOpen: false,
     },
     {
       id: 2,
-      question: "Q2. What question do you have? ask here",
+      question: "Q2. A frequently asked question would be displayed here",
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumea mollitia error ex nihil dolores iusto, sunt labore illumoptio repellendus quibusdam explicabo est sed, enim expedita adipisci incidunt suscipit voluptatibus nobis? Culpa libero, ipsam architecto voluptate cum incidunt, doloremque, corrupti hic voluptates inventore neque consequatur voluptatibus corporis dolor molestiae?",
       isOpen: false,
     },
     {
       id: 3,
-      question: "Q3. What question do you have? ask here",
+      question: "Q3. A frequently asked question would be displayed here",
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumea mollitia error ex nihil dolores iusto, sunt labore illumoptio repellendus quibusdam explicabo est sed, enim expedita adipisci incidunt suscipit voluptatibus nobis? Culpa libero, ipsam architecto voluptate cum incidunt, doloremque, corrupti hic voluptates inventore neque consequatur voluptatibus corporis dolor molestiae?",
       isOpen: false,
     },
     {
       id: 4,
-      question: "Q4. What question do you have? ask here",
+      question: "Q4. A frequently asked question would be displayed here",
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumea mollitia error ex nihil dolores iusto, sunt labore illumoptio repellendus quibusdam explicabo est sed, enim expedita adipisci incidunt suscipit voluptatibus nobis? Culpa libero, ipsam architecto voluptate cum incidunt, doloremque, corrupti hic voluptates inventore neque consequatur voluptatibus corporis dolor molestiae?",
       isOpen: false,
     },
     {
       id: 5,
-      question: "Q5. What question do you have? ask here",
+      question: "Q5. A frequently asked question would be displayed here",
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumea mollitia error ex nihil dolores iusto, sunt labore illumoptio repellendus quibusdam explicabo est sed, enim expedita adipisci incidunt suscipit voluptatibus nobis? Culpa libero, ipsam architecto voluptate cum incidunt, doloremque, corrupti hic voluptates inventore neque consequatur voluptatibus corporis dolor molestiae?",
       isOpen: false,
     },
     {
       id: 6,
-      question: "Q6. What question do you have? ask here",
+      question: "Q6. A frequently asked question would be displayed here",
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumea mollitia error ex nihil dolores iusto, sunt labore illumoptio repellendus quibusdam explicabo est sed, enim expedita adipisci incidunt suscipit voluptatibus nobis? Culpa libero, ipsam architecto voluptate cum incidunt, doloremque, corrupti hic voluptates inventore neque consequatur voluptatibus corporis dolor molestiae?",
       isOpen: false,
     },
     {
       id: 7,
-      question: "Q7. What question do you have? ask here",
+      question: "Q7. A frequently asked question would be displayed here",
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumea mollitia error ex nihil dolores iusto, sunt labore illumoptio repellendus quibusdam explicabo est sed, enim expedita adipisci incidunt suscipit voluptatibus nobis? Culpa libero, ipsam architecto voluptate cum incidunt, doloremque, corrupti hic voluptates inventore neque consequatur voluptatibus corporis dolor molestiae?",
       isOpen: false,
     },
     {
       id: 8,
-      question: "Q8. What question do you have? ask here",
+      question: "Q8. A frequently asked question would be displayed here",
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumea mollitia error ex nihil dolores iusto, sunt labore illumoptio repellendus quibusdam explicabo est sed, enim expedita adipisci incidunt suscipit voluptatibus nobis? Culpa libero, ipsam architecto voluptate cum incidunt, doloremque, corrupti hic voluptates inventore neque consequatur voluptatibus corporis dolor molestiae?",
       isOpen: false,
     },
     {
       id: 9,
-      question: "Q9. What question do you have? ask here",
+      question: "Q9. A frequently asked question would be displayed here",
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumea mollitia error ex nihil dolores iusto, sunt labore illumoptio repellendus quibusdam explicabo est sed, enim expedita adipisci incidunt suscipit voluptatibus nobis? Culpa libero, ipsam architecto voluptate cum incidunt, doloremque, corrupti hic voluptates inventore neque consequatur voluptatibus corporis dolor molestiae?",
       isOpen: false,
     },
     {
       id: 10,
-      question: "Q10. What question do you have? ask here",
+      question: "Q10. A frequently asked question would be displayed here",
       answer:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrumea mollitia error ex nihil dolores iusto, sunt labore illumoptio repellendus quibusdam explicabo est sed, enim expedita adipisci incidunt suscipit voluptatibus nobis? Culpa libero, ipsam architecto voluptate cum incidunt, doloremque, corrupti hic voluptates inventore neque consequatur voluptatibus corporis dolor molestiae?",
       isOpen: false,

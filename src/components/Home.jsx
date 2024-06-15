@@ -16,8 +16,7 @@ export default function HomePage() {
 
         <main className="flex-grow flex flex-col items-center justify-center max-h-screen p-4">
           <p className="text-lg mb-4 text-center">
-            Your one-stop solution for all technological updates and
-            notifications.
+            Your one-stop solution for all placement updates and notifications.
           </p>
           <Link
             to="/notifications"
@@ -25,6 +24,7 @@ export default function HomePage() {
           >
             Go to Notifications
           </Link>
+
           <Link
             to="/faq"
             className="bg-blue-950 text-white py-2 px-4 rounded-lg hover:bg-blue-700 m-5"

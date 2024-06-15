@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../images/logos.png";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default function NavBar() {
@@ -7,7 +8,13 @@ export default function NavBar() {
   return (
     <nav className="bg-blue-950 p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white text-xl font-bold">MyLogo</div>
+        <div>
+          <img
+            src={logo}
+            alt="Getfly Technologies Logo"
+            style={{ height: "60px", width: "50px" }}
+          />
+        </div>
         <div className="block lg:hidden">
           <button
             onClick={() => setShowMenu(!showMenu)}
@@ -48,13 +55,16 @@ export default function NavBar() {
         </div>
 
         <div className="hidden lg:flex space-x-4">
-          <Link to="/" className="text-gray-300 hover:text-white">
+          <Link to="/" className="text-gray-300 hover:text-white text-lg">
             Home
           </Link>
-          <Link to="/notifications" className="text-gray-300 hover:text-white">
+          <Link
+            to="/notifications"
+            className="text-gray-300 hover:text-white text-lg"
+          >
             Notifications
           </Link>
-          <Link to="/faq" className="text-gray-300 hover:text-white">
+          <Link to="/faq" className="text-gray-300 hover:text-white text-lg">
             FAQ
           </Link>
         </div>
@@ -64,19 +74,19 @@ export default function NavBar() {
         <div className="lg:hidden">
           <Link
             to="/"
-            className="block text-gray-300 hover:text-white px-2 py-1"
+            className="block text-gray-300 hover:text-white px-2 py-1 text-lg"
           >
             Home
           </Link>
           <Link
             to="/notifications"
-            className="block text-gray-300 hover:text-white px-2 py-1"
+            className="block text-gray-300 hover:text-white px-2 py-1 text-lg"
           >
             Notifications
           </Link>
           <Link
             to="/faq"
-            className="block text-gray-300 hover:text-white px-2 py-1"
+            className="block text-gray-300 hover:text-white px-2 py-1 text-lg"
           >
             FAQ
           </Link>
